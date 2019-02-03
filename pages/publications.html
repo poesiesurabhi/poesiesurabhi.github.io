@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Surabhi Balachander</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="publications.css">
+
+<div class="title">
+	<p>Surabhi Balachander</p>
+</div>
+<div class="divider" id="dtop"></div>
+
+
+<div class="menu">
+	<a href="../index.html" class="menuItem" id="home">Home</a>
+	<p class="currentPage" id="pub">Publications</p>
+	<a href="about.html" class="menuItem" id="about">About</a>
+	<a href="resources.html" class="menuItem" id="resources">Resources</a>
+	<p id="point1">&#9679</p>
+	<p id="point2">&#9679</p>
+	<p id="point3">&#9679</p>
+</div>
+
+<img id="pubPhoto" src="../assets/images/poetry.jpg"/>
+
+<div id="poetry">
+	<p id="poetryHeader" class="pubHeader">Poetry</p>
+	
+	<a class="poetryLink" href="https://theindianapolisreview.com/pregnancy-dreams-1-redwoods/">"Pregnancy Dreams #1 (Redwoods)." <span class="currentPage">The Indianapolis Review</span>, 20 July 2018.</a>
+	<a class="poetryLink" href="https://theindianapolisreview.com/sri-venkateswara-swami-temple-aurora-illinois/">"Sri Venkateswara Swami Temple, Aurora, Illinois." <span class="currentPage">The Indianapolis Review</span>, 20 July 2018.</a>
+	<a class="poetryLink" href="https://jmwwblog.wordpress.com/2018/02/23/four-poems-by-surabhi-balachander/">"Always the possibility.," "no space," "poisoning a goddess," "The Heads Claudia & Hermann." <span class="currentPage">jmww</span>, 23 February 2018.</a>
+	<a class="poetryLink" href="http://wandererpoetry.com/remapping-ramayana-poetry-surabhi-balachander/">"The outline, the silhouette, the suggestion." <span class="currentPage">The Wanderer</span>, 4 January 2018.</a>
+	<a class="poetryLink" href="http://www.yespoetry.com/news/surabhi-balachander">"incorrigible disturbers of the peace," "Apogee." <span class="currentPage">Yes Poetry</span>, 1 May 2017.</a>
+</div>
+
+<div id="prose">
+	<p id="proseHeader" class="pubHeader">Prose</p>
+	<a class="proseLink" href="https://www.stanforddaily.com/2019/01/22/response-to-the-urban-rural-divide-stanfords-most-pernicious-bubble/">"Response to 'The urban-rural divide: Stanford's most pernicious bubble?'" <span class="currentPage">The Stanford Daily</span>, 22 January 2019.</a>
+	<a class="proseLink" href="https://www.clereviewofbooks.com/home/notesfromnomanslandbiss">"The End of White Innocence: On Eula Biss' 'Notes From No Man's Land.'" <span class="currentPage">Cleveland Review of Books</span>, 6 November 2018.</a>
+</div>
+
+
+</body>
+<script type="text/javascript">
+	var poetryLinks = document.getElementsByClassName('poetryLink');
+	for(var p = 0; p < poetryLinks.length; p++){
+		console.log(poetryLinks[p].style, p)
+		poetryLinks[p].style.top = (80 + (60 * p)) + 'px';
+	}
+
+	var proseLinks = document.getElementsByClassName('proseLink');
+	for(var p = 0; p < proseLinks.length; p++){
+		console.log(proseLinks[p].style, p)
+		proseLinks[p].style.top = (80 + (60 * p)) + 'px';
+	}
+
+</script>
+</html>

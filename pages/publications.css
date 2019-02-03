@@ -1,0 +1,53 @@
+#poetry{
+	position: absolute;
+	top: 530px;
+	left: 150px;
+	height: 1000px;
+}
+
+#poetryHeader{
+	letter-spacing: 1.5px;
+}
+
+.pubHeader{
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: -30px;
+}
+
+.poetryLink{
+	position: absolute;
+	width: 1000px;
+	height: 60px;
+	left: 0px;
+	font-size: 20px;
+}
+
+#poetryPhoto{
+	position: absolute;
+	left: 600px;
+	top: 40px;
+}
+
+#prose{
+	position: absolute;
+	top: 980px;
+	left: 150px;
+	height: 1000px;
+}
+
+.proseLink{
+	position: absolute;
+	width: 1000px;
+	height: 60px;
+	left: 0px;
+	font-size: 20px;
+}
+
+#pubPhoto{
+	position: absolute;
+	left: 380px;
+	top: 150px;
+	transform: scale(.8);
+}

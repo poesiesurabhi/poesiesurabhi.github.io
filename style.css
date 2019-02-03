@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+@font-face{
+	font-family: "EB Garamond";
+}
+
+body{
+	background-color: #619bf9;
+}
+
+.title{
+	font-family: "Lora", serif;
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	letter-spacing: 7px;
+	position: absolute;
+	top: 0px;
+}
+
+.divider{
+	background-color: #d6d6d6;
+	height: 1px;
+	width: 800px;
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+	opacity: 0;
+}
+
+#dtop{
+	position: absolute;
+	top: 100px;
+}
+
+#dbottom{
+	position: absolute;
+	top: 170px;
+}
+
+.menu{
+	color: #d6d6d6;
+	font-family: "Lora", serif;
+	font-size: 20px;
+	position: absolute;
+	width: 900px;
+	top: 130px;
+	left: 657px;
+	margin-left: -400px;
+	letter-spacing: 1.2px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "EB Garamond", serif;
+	
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	color: #ffffff;
+	font-family: "EB Garamond", serif;
+}
+
+.menuItem:hover{
+	text-decoration: underline;
+}
+
+#homeHeader{
+	position: absolute;
+	font-family: "Lora", serif;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	font-style: italic;
+	position: absolute;
+	top: 105px;
+	letter-spacing: 1.2px;
+}
+
+#home{
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+}
+
+#pub{
+	margin: 0px;
+	position: absolute;
+	left: 240px;
+}
+
+#about{
+	margin: 0px;
+	position: absolute;
+	left: 535px;
+}
+
+#resources{
+	position: absolute;
+	left: 760px;
+	top: 0px;
+}
+
+.currentPage{
+	font-style: italic;
+	
+}
+
+#point1{
+	margin: 0px;
+	position: absolute;
+	left: 135px;
+}
+
+#point2{
+	margin: 0px;
+	position: absolute;
+	left: 430px;
+}
+
+#point3{
+	margin: 0px;
+	position: absolute;
+	left: 667px;
+}
+
+.body{
+
+}
+
+.mHome{
+	top: 580px;
+}
+
+#homePhotos{
+	position: absolute;
+	top: 160px;
+	width: 800px;
+	left: 285px;
+}
+
+.slidePhoto{
+    position: absolute;
+    transition: opacity 4s;
+}
+
+#photo1{
+	left: 50px;
+	opacity: 1;
+	z-index: 2;
+}
+
+#photo2{
+	left: 140px;
+	opacity: 0;
+	z-index: 1;
+}
+
+#photo3{
+	left: 50px;
+	opacity: 0;
+	z-index: 1;
+}
+
+#headshot{
+	position: absolute;
+	left: 100px;
+	top: 200px;
+}
+
+#aboutDiv{
+	position: absolute;
+	top: 330px;
+	left: 540px;
+	width: 600px;
+}
+
+#aboutText{
+	position: absolute;
+}
+
+#researchHeader{
+	position: absolute;
+	font-size: 20px;
+	font-weight: bold;
+	top: 150px;
+}
+
+#researchInterests{
+	position: absolute;
+	top: 190px;
+	left: 40px
+}
+
+#resourcesBody{
+	position: absolute;
+	top: 180px;
+	left: 110px;
+}
+
+#resourcesPhoto{
+	position: absolute;
+	top: 200px;
+	left: 800px;
+}
