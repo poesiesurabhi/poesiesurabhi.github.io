@@ -177,18 +177,32 @@ p{
 
 #aboutDiv{
 	position: absolute;
-	top: 330px;
+	top: 270px;
 	left: 540px;
 	width: 600px;
 }
 
 #aboutText{
 	position: absolute;
+	font-size: 18px;
 }
+
+
+#contactDiv{
+	position: absolute;
+	top: 180px;
+}
+
+#textDiv{
+	position: absolute;
+	top: 50px;
+
+}
+
 
 #researchHeader{
 	position: absolute;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	top: 150px;
 }
