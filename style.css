@@ -8,11 +8,17 @@ body{
 	background-color: #619bf9;
 }
 
+.bodydiv{
+	position: absolute;
+	  width: 800px;
+	  left: 50%;
+	  margin: 0 0 0 -500px;
+}
+
 .title{
 	font-family: "Lora", serif;
 	font-size: 40px;
 	text-align: center;
-	left: 198px;
 	width: 1000px;
 	letter-spacing: 7px;
 	position: absolute;
@@ -24,8 +30,7 @@ body{
 	height: 1px;
 	width: 800px;
 	position: absolute;
-	left: 50%;
-	margin-left: -400px;
+
 	opacity: 0;
 }
 
@@ -46,9 +51,9 @@ body{
 	position: absolute;
 	width: 900px;
 	top: 130px;
-	left: 657px;
-	margin-left: -400px;
 	letter-spacing: 1.2px;
+	  left: 50%;
+	  margin: 0 0 0 -333px;
 }
 
 a{
@@ -76,7 +81,6 @@ p{
 	font-family: "Lora", serif;
 	font-size: 20px;
 	text-align: center;
-	left: 193px;
 	width: 1000px;
 	font-style: italic;
 	position: absolute;
@@ -143,7 +147,8 @@ p{
 	position: absolute;
 	top: 160px;
 	width: 800px;
-	left: 285px;
+	  left: 50%;
+	  margin: 0 0 0 -312px;
 }
 
 .slidePhoto{
@@ -171,14 +176,14 @@ p{
 
 #headshot{
 	position: absolute;
-	left: 100px;
+	left: -100px;
 	top: 200px;
 }
 
 #aboutDiv{
 	position: absolute;
 	top: 270px;
-	left: 540px;
+	left: 340px;
 	width: 600px;
 }
 
@@ -221,11 +226,11 @@ p{
 #resourcesBody{
 	position: absolute;
 	top: 180px;
-	left: 110px;
+	left: -90px;
 }
 
 #resourcesPhoto{
 	position: absolute;
 	top: 200px;
-	left: 800px;
+	left: 600px;
 }

@@ -1,7 +1,7 @@
 #poetry{
 	position: absolute;
 	top: 530px;
-	left: 150px;
+	left: -50px;
 	height: 1000px;
 }
 
@@ -30,14 +30,14 @@
 
 #poetryPhoto{
 	position: absolute;
-	left: 600px;
+	left: 400px;
 	top: 40px;
 }
 
 #prose{
 	position: absolute;
 	top: 980px;
-	left: 150px;
+	left: -50px;
 	height: 1000px;
 }
 
@@ -51,7 +51,7 @@
 
 #pubPhoto{
 	position: absolute;
-	left: 380px;
+	left: 180px;
 	top: 150px;
 	transform: scale(.8);
 }
