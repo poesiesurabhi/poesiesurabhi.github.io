@@ -1,7 +1,7 @@
 #poetry{
 	position: absolute;
 	top: 530px;
-	left: -50px;
+	left: 50px;
 	height: 1000px;
 }
 
@@ -37,7 +37,7 @@
 #prose{
 	position: absolute;
 	top: 980px;
-	left: -50px;
+	left: 50px;
 	height: 1000px;
 }
 

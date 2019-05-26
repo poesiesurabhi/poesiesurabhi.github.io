@@ -183,14 +183,14 @@ p{
 
 #headshot{
 	position: absolute;
-	left: -100px;
+	left: 0px;
 	top: 200px;
 }
 
 #aboutDiv{
 	position: absolute;
 	top: 270px;
-	left: 340px;
+	left: 440px;
 	width: 600px;
 }
 
