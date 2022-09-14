@@ -161,22 +161,23 @@ p{
 .slidePhoto{
     position: absolute;
     transition: opacity 4s;
+    height: 400px;
 }
 
 #photo1{
-	left: 50px;
+	left: 55px;
 	opacity: 1;
 	z-index: 2;
 }
 
 #photo2{
-	left: 140px;
+	left: 250px;
 	opacity: 0;
 	z-index: 1;
 }
 
 #photo3{
-	left: 50px;
+	left: 145px;
 	opacity: 0;
 	z-index: 1;
 }
@@ -184,7 +185,8 @@ p{
 #headshot{
 	position: absolute;
 	left: 50px;
-	top: 200px;
+	top: 225px;
+	width: 350px;
 }
 
 #aboutDiv{
@@ -195,7 +197,7 @@ p{
 }
 
 #aboutText{
-	position: absolute;
+	position: relative;
 	font-size: 18px;
 	width: 600px;
 }
@@ -214,22 +216,22 @@ p{
 }
 
 #contactInfo{
-	position: absolute;
-	top: 157px;
+	position: relative;
+	top: 20px;
 	left: 0px
 	width: 600px;
 }
 
 #researchHeader{
-	position: absolute;
+	position: relative;
 	font-size: 18px;
 	font-weight: bold;
-	top: 210px;
+	top: 40px;
 }
 
 #researchInterests{
-	position: absolute;
-	top: 250px;
+	position: relative;
+	top: 30px;
 	left: 0px;
 	width: 600px;
 }
