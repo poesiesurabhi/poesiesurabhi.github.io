@@ -159,30 +159,32 @@ p{
 }
 
 .slidePhoto{
-    top: 0;
-    
+    position: absolute;
+
+
     transition: opacity 4s;
     height: 400px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    
+
+
 }
 
 #photo1{
-	 width: 50%;
+	left: 55px;
+
 	opacity: 1;
 	z-index: 2;
 }
 
 #photo2{
-	 width: 50%;
+	left: 250px;
+
 	opacity: 0;
 	z-index: 1;
 }
 
 #photo3{
-	 width: 50%;
+	left: 145px;
+
 	opacity: 0;
 	z-index: 1;
 }
