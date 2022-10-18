@@ -159,25 +159,30 @@ p{
 }
 
 .slidePhoto{
-    position: absolute;
+    top: 0;
+    
     transition: opacity 4s;
     height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
 }
 
 #photo1{
-	left: 55px;
+	 width: 50%;
 	opacity: 1;
 	z-index: 2;
 }
 
 #photo2{
-	left: 250px;
+	 width: 50%;
 	opacity: 0;
 	z-index: 1;
 }
 
 #photo3{
-	left: 145px;
+	 width: 50%;
 	opacity: 0;
 	z-index: 1;
 }
@@ -239,11 +244,41 @@ p{
 #resourcesBody{
 	position: absolute;
 	top: 180px;
-	left: -90px;
+	left: 200px;
 }
 
 #resourcesPhoto{
 	position: absolute;
 	top: 200px;
 	left: 600px;
+}
+
+
+
+#publicationsBody{
+	position: absolute;
+	top: 530px;
+	left: 50px;
+	height: 1000px;
+}
+
+.pubHeader{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.pubBody{
+	width: 1000px;
+	height: 60px;
+	left: 0px;
+	font-size: 20px;
+}
+
+
+#pubPhoto{
+	position: absolute;
+	left: 180px;
+	top: 150px;
+	transform: scale(.8);
 }
