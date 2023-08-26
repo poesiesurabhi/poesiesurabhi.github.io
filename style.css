@@ -293,3 +293,15 @@ p{
 .resourcesP{
 	width: 600px;
 }
+
+.iglink{
+	font-size: 29px;
+	text-decoration: underline;
+	left:  360px;
+	position: relative;
+}
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+} 
